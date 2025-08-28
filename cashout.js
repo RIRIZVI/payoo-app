@@ -6,7 +6,7 @@
     <title>Home page</title>
       <!--daisyUi Cdn-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <!-- tailwind cdn-->
+    <!-- tailwind cdn -->
      <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome cdn-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -37,12 +37,12 @@
 
         <div class="grid grid-cols-3 gap-14  max-w-lg mx-auto  mt-8  bg-white">
 
-   <div id="add-money" class="border-2 border-red-500 w-[123px] h-[90px] text-center p-4  rounded-lg">
+   <div class="border-2 border-red-500 w-[123px] h-[90px] text-center p-4  rounded-lg">
     <img src="./assets/wallet1.png" class="mx-auto" alt="">
     <h2 >Add Money</h2>
 
    </div>
-   <div id="cash-out" class="border-2 border-green-500 w-[123px] h-[90px] text-center p-4 rounded-lg">
+   <div class="border-2 border-green-500 w-[123px] h-[90px] text-center p-4 rounded-lg">
     <img src="./assets/send1.png" class="mx-auto" alt="">
     <h2>Cashout</h2>
    </div>
@@ -67,7 +67,7 @@
 
         <div class="form-section max-w-lg mx-auto justify-center items-center">
                         <!--      Add Money Section       -->
-    <div id="add-money-parent" style="display: none;" class=" max-w-lg mx-auto">
+    <div class=" max-w-lg mx-auto">
         <h1 class="p-4">Add Money</h1>
         <form action="" class="bg-white rounded-2xl p-8 ">
             <div>
@@ -92,21 +92,6 @@
          
 </div>
 
-        <!--Cash out Section-->
-    <div id="cash-out-parent" style="display: none;" class=" max-w-lg mx-auto">
-        <h1 class="p-4">Cash Out</h1>
-        <form action="" class="bg-white rounded-2xl p-8 ">
-            <div> <label class="font-semibold">Agent Number</label><br>
-            <input type="text" placeholder="Input Agent Number" id="agent-number" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
-            <div> <label class="font-semibold">Amount</label><br>
-            <input type="text" placeholder="Input Your Number" id="withdraw-amount" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
-            <div> <label class="font-semibold">PIN Number</label><br>
-            <input type="text" placeholder="Input Your Number" id="cashout-pin-number" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
-         <button  class="btn text-white mt-5 w-full rounded-3xl bg-[#0000FF]" id="withdraw-money-btn">Withdraw</button>
-           
-        </form>
-         
-</div>
 
 
     <script src="./home.js"></script>

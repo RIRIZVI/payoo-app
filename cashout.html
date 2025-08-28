@@ -37,12 +37,12 @@
 
         <div class="grid grid-cols-3 gap-14  max-w-lg mx-auto  mt-8  bg-white">
 
-   <div id="add-money" class="border-2 border-red-500 w-[123px] h-[90px] text-center p-4  rounded-lg">
+   <div class="border-2 border-red-500 w-[123px] h-[90px] text-center p-4  rounded-lg">
     <img src="./assets/wallet1.png" class="mx-auto" alt="">
     <h2 >Add Money</h2>
 
    </div>
-   <div id="cash-out" class="border-2 border-green-500 w-[123px] h-[90px] text-center p-4 rounded-lg">
+   <div class="border-2 border-green-500 w-[123px] h-[90px] text-center p-4 rounded-lg">
     <img src="./assets/send1.png" class="mx-auto" alt="">
     <h2>Cashout</h2>
    </div>
@@ -67,10 +67,10 @@
 
         <div class="form-section max-w-lg mx-auto justify-center items-center">
                         <!--      Add Money Section       -->
-    <div id="add-money-parent" style="display: none;" class=" max-w-lg mx-auto">
+    <div class=" max-w-lg mx-auto">
         <h1 class="p-4">Add Money</h1>
         <form action="" class="bg-white rounded-2xl p-8 ">
-            <div>
+           <!-- <div>
                 <h2 class="font-semibold">Select A Bank</h2>
                 <select id="bank" class="select  w-full mt-4 rounded-3xl bg-[#f4f5f7]" >
                     <option value="" disabled selected>Pick a Bank</option>
@@ -80,35 +80,20 @@
                     <option value="Sonali Bank">Sonali Bank</option>
                     <option value="Islami Bank">Islami Bank</option>
                 </select>
-            </div>
-            <div> <label class="font-semibold">Account Number</label><br>
-            <input type="text" placeholder="Input Account Number" id="account-number" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
-            <div> <label class="font-semibold">Add Amount</label><br>
-            <input type="text" placeholder="Input Your Number" id="add-amount" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
-            <div> <label class="font-semibold">PIN Number</label><br>
-            <input type="text" placeholder="Input Your Number" id="pin-number" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
-         <button  class="btn text-white mt-5 w-full rounded-3xl bg-[#0000FF]" id="add-money-btn">Add Money</button>
-        </form>
-         
-</div>
-
-        <!--Cash out Section-->
-    <div id="cash-out-parent" style="display: none;" class=" max-w-lg mx-auto">
-        <h1 class="p-4">Cash Out</h1>
-        <form action="" class="bg-white rounded-2xl p-8 ">
+            </div> -->
             <div> <label class="font-semibold">Agent Number</label><br>
             <input type="text" placeholder="Input Agent Number" id="agent-number" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
             <div> <label class="font-semibold">Amount</label><br>
             <input type="text" placeholder="Input Your Number" id="withdraw-amount" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
             <div> <label class="font-semibold">PIN Number</label><br>
-            <input type="text" placeholder="Input Your Number" id="cashout-pin-number" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
-         <button  class="btn text-white mt-5 w-full rounded-3xl bg-[#0000FF]" id="withdraw-money-btn">Withdraw</button>
-           
+            <input type="text" placeholder="Input Your Number" id="pin-number" class="input w-full mt-3 rounded-3xl bg-[#f4f5f7]" /></div>
+         <button  class="btn text-white mt-5 w-full rounded-3xl bg-[#0000FF]" id="withdraw-btn">Withdraw</button>
         </form>
          
 </div>
 
 
-    <script src="./home.js"></script>
+
+   
 </body>
 </html>
